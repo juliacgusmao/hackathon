@@ -1,0 +1,86 @@
+body{
+    background-image: url("fundo2.webp");
+}
+
+
+h1 {
+    color: beige;
+    position: sticky;
+    top: 0px;
+}
+
+h2{
+    text-align: center;
+    color: beige;
+    background-color: black;
+    display: inline;
+    border-radius: 50%;
+    width: 100px;
+    height: 30px;
+    border: 10px solid black;
+}
+
+h3{
+    text-align: start;
+    color: black;
+}
+p{
+    font-size: 20px;
+}
+
+img{
+    float: left;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 40px;
+}
+
+#impos{
+    border: black solid 10px;
+    margin-left: 10px;
+    margin-right: 130px;
+}
+
+header{
+    background-color: black; opacity: 0.5;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+nav{
+    background-color:gray;
+    height: 40px;
+    overflow: hidden;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 0px;
+    text-decoration: none;
+    width: 50%;
+}
+
+nav a:hover {
+    background-color:white;
+    color: black;
+}
+
+.column {
+    float: left;
+    width: 30%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.row{
+    position: relative;
+    top: 70px;
+}
